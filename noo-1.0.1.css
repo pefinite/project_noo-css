@@ -1,1 +1,100 @@
-noo.c
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 599px) {
+    .xs-1 {width: 8.33%;}
+    .xs-2 {width: 16.66%;}
+    .xs-3 {width: 25%;}
+    .xs-4 {width: 33.33%;}
+    .xs-5 {width: 41.66%;}
+    .xs-6 {width: 50%;}
+    .xs-7 {width: 58.33%;}
+    .xs-8 {width: 66.66%;}
+    .xs-9 {width: 75%;}
+    .xs-10 {width: 83.33%;}
+    .xs-11 {width: 91.66%;}
+    .xs-12 {width: 100%;}
+    .hidden-xs {display: none;}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .sm-1 {width: 8.33%;}
+    .sm-2 {width: 16.66%;}
+    .sm-3 {width: 25%;}
+    .sm-4 {width: 33.33%;}
+    .sm-5 {width: 41.66%;}
+    .sm-6 {width: 50%;}
+    .sm-7 {width: 58.33%;}
+    .sm-8 {width: 66.66%;}
+    .sm-9 {width: 75%;}
+    .sm-10 {width: 83.33%;}
+    .sm-11 {width: 91.66%;}
+    .sm-12 {width: 100%;}
+    .hidden-sm {display: none;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .md-1 {width: 8.33%;}
+    .md-2 {width: 16.66%;}
+    .md-3 {width: 25%;}
+    .md-4 {width: 33.33%;}
+    .md-5 {width: 41.66%;}
+    .md-6 {width: 50%;}
+    .md-7 {width: 58.33%;}
+    .md-8 {width: 66.66%;}
+    .md-9 {width: 75%;}
+    .md-10 {width: 83.33%;}
+    .md-11 {width: 91.66%;}
+    .md-12 {width: 100%;}
+    .hidden-md {display: none;}
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px)  {
+    .lg-1 {width: 8.33%;}
+    .lg-2 {width: 16.66%;}
+    .lg-3 {width: 25%;}
+    .lg-4 {width: 33.33%;}
+    .lg-5 {width: 41.66%;}
+    .lg-6 {width: 50%;}
+    .lg-7 {width: 58.33%;}
+    .lg-8 {width: 66.66%;}
+    .lg-9 {width: 75%;}
+    .lg-10 {width: 83.33%;}
+    .lg-11 {width: 91.66%;}
+    .lg-12 {width: 100%;}
+    .hidden-lg {display: none;}
+}
+
+@media only screen and (min-width: 1201px)  {
+    .xlg-1 {width: 8.33%;}
+    .xlg-2 {width: 16.66%;}
+    .xlg-3 {width: 25%;}
+    .xlg-4 {width: 33.33%;}
+    .xlg-5 {width: 41.66%;}
+    .xlg-6 {width: 50%;}
+    .xlg-7 {width: 58.33%;}
+    .xlg-8 {width: 66.66%;}
+    .xlg-9 {width: 75%;}
+    .xlg-10 {width: 83.33%;}
+    .xlg-11 {width: 91.66%;}
+    .xlg-12 {width: 100%;}
+    .hidden-xlg {display: none;}
+}
